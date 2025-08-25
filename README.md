@@ -1,1 +1,3 @@
-# JS-recap4
+# JavaScript Starter
+
+For Basics of Web Development course in Metropolia.
