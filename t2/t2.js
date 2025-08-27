@@ -829,6 +829,9 @@ function showRestaurantModal(restaurant) {
   const closeBtn = dialog.querySelector('#closeModalBtn');
   closeBtn.addEventListener('click', () => {
     dialog.close();
+    document.querySelectorAll('td').forEach(cell => {
+      cell.classList.remove('highlight');
+    });
   });
 
   dialog.showModal();
